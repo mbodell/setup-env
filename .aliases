@@ -2,48 +2,46 @@
 # shell if you change it.
 
 # Some handy stuff for people used to DOS
-alias md mkdir
-alias rd rmdir
-alias dir ls -la
-alias rn 'echo "You did not really mean to type rn, did you?"'
-alias a "source ~/.aliases"
-alias vi vim
+alias md='mkdir'
+alias rd='rmdir'
+alias dir='ls -la'
+alias rn='echo "You did not really mean to type rn, did you?"'
+alias a='source ~/.aliases'
+alias vi='vim'
 
 # These resemble some common Norton Utilities/PC Tools commands
-alias fs gdu -c
-alias ff find ~ -name '\!*' -print
+alias fs='gdu -c'
+alias ff="find ~ -name '\!*' -print"
 
 # Some fairly standard Unixisms
-alias ll ls -l
-alias la ls -al
-alias lsd ls -ld
-alias bye "clear;logout"
+alias ll='ls -l'
+alias la='ls -al'
+alias lsd='ls -ld'
+alias bye='clear;logout'
 
 # Some handy protection
-alias rm rm -i
-alias mv mv -i
-alias cp cp -i
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
 
 # Ways to log out
-alias lo logout
-alias quit logout
-alias hangup logout
+alias lo='logout'
+alias quit='logout'
+alias hangup='logout'
 
 # You need to execute the output of "resize" for it to work properly;
 # this alias makes this happen automatically.
-alias resize 'eval `\resize`'
+alias resize='eval `\resize`'
 
 #    Protect against some programs you really don't want to run
 #    unless you know what you're doing.
 
 # These are bad editors; run pico instead.
-alias ed pico
-alias e pico
-alias ex pico
-alias edit pico
+alias ed='pico'
+alias e='pico'
+alias ex='pico'
+alias edit='pico'
 
 # This is a bad mail reader; run pine instead.
-alias mail pine
+alias mail='pine'
 
-# to kill all bad children processes
-alias kr "~/kill-r"

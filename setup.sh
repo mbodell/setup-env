@@ -5,4 +5,4 @@ git config --global user.email mbodell@gmail.com
 git config --global core.editor vim
 git config --global merge.tool vimdiff
 
-source .aliases
+source ~/setup-env/.aliases
