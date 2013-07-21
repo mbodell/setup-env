@@ -7,3 +7,5 @@ git config --global merge.tool vimdiff
 git config --global credential.helper 'cache --timeout=360000'
 
 source ~/setup-env/.aliases
+
+sudo apt-get install -y tidy
