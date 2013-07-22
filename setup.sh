@@ -9,3 +9,6 @@ git config --global credential.helper 'cache --timeout=360000'
 source ~/setup-env/.aliases
 
 sudo apt-get install -y tidy
+
+git clone https://github.com/amix/vimrc ~/.vim_runtime
+sh ~/.vim_runtime/install_basic_vimrc.sh
